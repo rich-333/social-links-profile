@@ -16,3 +16,17 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    background-color: var(--color-background);
+}
+
+.profile {
+    background-color: var(--color-card);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
