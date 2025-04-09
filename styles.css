@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    /* TYPOGRAPHY */
+    --font-family: "Inter", sans-serif;
+
+    /* COLORS */
+    --color-hover: hsl(75, 94%, 57%);
+    --color-button: hsl(0, 0%, 20%);
+    --color-background: hsl(0, 0%, 8%);
+    --color-card: hsl(0, 0%, 12%);
+    --color-text: hsl(0, 0%, 100%);
+}
+
 * {
     padding: 0;
     margin: 0;
