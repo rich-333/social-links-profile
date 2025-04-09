@@ -24,9 +24,16 @@ body {
 }
 
 .profile {
-    background-color: var(--color-card);
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 100vh; 
 }
+
+.profile__container {
+    background-color: var(--color-card);
+    max-width: 350px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
