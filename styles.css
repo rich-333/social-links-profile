@@ -37,3 +37,36 @@ body {
     border-radius: 10px;
 }
 
+.profile__img {
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile__header {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.profile__name {
+    color: var(--color-text);
+    font-size: 1.50rem;
+    font-weight: 700;
+}
+
+.profile__city {
+    color: var(--color-hover);
+    display: inline-block;
+    margin: 10px 0 20px 0;
+    font-weight: 600;
+    font-size: .875rem;
+}
+
+.profile__description {
+    color: var(--color-text);
+    margin-bottom: 15px;
+    font-size: .9375rem;
+}
