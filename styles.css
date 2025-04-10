@@ -89,3 +89,10 @@ body {
     color: var(--color-background);
     cursor: pointer;
 }
+
+@media(max-width: 576px) {
+    .profile__container {
+        max-width: 300px;
+        padding: 20px;
+    }
+}
